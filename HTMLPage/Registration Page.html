@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+<div id="reg-form">
+    <form>
+        <label for="first-name">First Name : </label>
+        <input type="text" name="first-name"
+         placeholder="Vishal" required>
+    <br><br>
+         <label for="Last-name">Last Name : </label>
+         <input type="text" name="Last-name"
+          placeholder="Sonkusare" required>
+<div id="gender">
+    <label>Gender : </label>
+    <label for="gender male">male</label>
+    <input type="radio" name="gender" value="choice">
+
+    <label for="gender female">female</label>
+    <input type="radio" name="gender" value="choice">
+
+    <label for="gender other">other</label>
+    <input type="radio" name="gender" value="choice">
+        
+</div>
+<div>
+    <label for="email">Email : </label>
+    <input type="email" name="email" placeholder="xyz@domain.com">
+
+    <label for="password">Password : </label>
+    <input type="password" name="password">
+</div>
+    <label for="Month">Birthday</label>
+    <select name="Month">
+        <option value="0" selected disabled>Month</option>
+        <option value="jan">January</option>
+        <option value="feb">February</option>
+        <option value="mar">March</option>
+        <option value="apr">April</option>
+        <option value="may">May</option>
+        <option value="jun">June</option>
+        <option value="jul">July</option>
+        <option value="aug">August</option>
+        <option value="sep">Septeber</option>
+        <option value="oct">October</option>
+        <option value="nov">November</option>
+        <option value="dec">December</option>
+    </select>
+
+</div>
+<label for="agree">Agreed ?</label>
+    <input type="checkbox" name="agree">
+
+<button type="submit">Submit</button>
+
+
+</body>
+
+</html>
