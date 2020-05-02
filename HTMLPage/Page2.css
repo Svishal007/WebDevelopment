@@ -1,0 +1,13 @@
+#lorem{
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+    padding: 13px 13px 13px 25px;
+    margin: 10px auto;
+}
+#normal{
+    font-style: normal;
+}
+#italic{
+    
+}
